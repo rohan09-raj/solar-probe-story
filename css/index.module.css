@@ -1,0 +1,86 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/images/space.webp');
+}
+
+.landing__image {
+  z-index: -1;
+}
+
+.title {
+  font-size: 4rem;
+  color: var(--color-white);
+}
+
+.title__two,
+.title__three {
+  font-size: 6rem;
+  color: var(--color-white);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+
+.btn {
+  color: var(--color-white);
+  background: none;
+  border: none;
+}
+
+.begin__btn__text {
+  position: relative;
+  top: 95px;
+  left: 6px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.shape {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  transform: scale(0.8);
+}
+
+.cir {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 4px;
+  background: none;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:active,
+.btn:hover,
+.btn:focus {
+  outline: none !important;
+  color: white;
+}
+
+.btn-particles {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  color: #eee;
+  font-family: monospace;
+  z-index: auto;
+}
+
+.btn:active {
+  transform: scale(0.9) translate(-2%, -10%);
+}
