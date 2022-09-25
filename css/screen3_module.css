@@ -19,8 +19,8 @@
     font-weight: 500;
     margin-left: 1000px;
     margin-top: -200px;
-    transition: color 0.15s ;
   }
+
   .date{
     font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -29,3 +29,6 @@
     font-weight: 500;
     margin-left: 1000px;
   }
+.vid{
+    margin-top: -300px;
+}
