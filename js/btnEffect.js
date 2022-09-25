@@ -58,5 +58,8 @@ $.fn.boom = function (e) {
 $(function () {
   $(document).on('click', '.btn', function (e) {
     $(this).boom(e);
+    setTimeout(function () {
+      location.href = 'http://127.0.0.1:5500/screen-1.html';
+    }, 2000);
   });
 });
